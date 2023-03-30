@@ -14,3 +14,10 @@ cd test
 npm init
 npm i -D cypress
 ```
+
+## setup for astro
+```sh
+mkdir app
+cd app
+npm create astro@latest . -- --template blog --install --no-git --typescript strict -y
+```
