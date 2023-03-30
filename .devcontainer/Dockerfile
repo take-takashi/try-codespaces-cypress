@@ -1,4 +1,4 @@
-FROM public.ecr.aws/bitnami/node:16 AS dev # Change this line based on your requirements
+FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:16-bullseye AS dev
 
 # https://docs.cypress.io/guides/continuous-integration/introduction#Dependencies
 RUN apt-get update && \
