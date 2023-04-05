@@ -2,5 +2,7 @@
   "service": "dev",
   "dockerComposeFile": "docker-compose.yml",
   "forwardPorts": [8080],
-  "workspaceFolder": "/workspace"
+  //"workspaceFolder": "/workspace",
+  //"postCreateCommand": "docker-compose up --no-start && docker-compose start && echo 'Ready to use!'"
+  "postCreateCommand": "echo hello world"
 }
